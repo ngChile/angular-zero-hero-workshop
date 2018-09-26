@@ -2,14 +2,17 @@
   flex: 1 0 25%;
   word-wrap: break-word;
   margin: 25px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
+  height: 90%;
+  text-align: center;
+  width: min-content;
 }
 
 .personaje_container img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -37,7 +40,7 @@
 
 .personaje_container .personaje_body ul li {
   padding: 10px;
-  border-bottom: 1px dotted #CECECE;
+  border-bottom: 1px dotted #cecece;
 }
 
 .personaje_container .personaje_body ul li:last-child {
