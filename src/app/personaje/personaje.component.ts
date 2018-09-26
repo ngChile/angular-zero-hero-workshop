@@ -4,16 +4,15 @@ import { Input } from '@angular/core';
 @Component({
   selector: 'app-personaje',
   templateUrl: './personaje.component.html',
-  styleUrls: ['./personaje.component.css']
+  styleUrls: ['./personaje.component.css'],
 })
 export class PersonajeComponent implements OnInit {
+  @Input()
+  datos;
 
-  @Input() datos;
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     console.log(this.datos);
   }
-
 }
