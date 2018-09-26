@@ -1,0 +1,45 @@
+.personaje_container {
+  flex: 1 0 25%;
+  word-wrap: break-word;
+  margin: 25px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.personaje_container img {
+  width: 100%;
+  height: auto;
+}
+
+.personaje_container .personaje_body {
+  padding: 20px;
+}
+
+.personaje_container .personaje_body h3 {
+  font-size: 28px;
+  margin: 0px;
+  color: #35c9dd;
+}
+
+.personaje_container .personaje_body hr {
+  border: 0;
+  background-color: #02afc5;
+  height: 1px;
+}
+
+.personaje_container .personaje_body ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.personaje_container .personaje_body ul li {
+  padding: 10px;
+  border-bottom: 1px dotted #CECECE;
+}
+
+.personaje_container .personaje_body ul li:last-child {
+  border-bottom: 0px;
+}

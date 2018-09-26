@@ -1,0 +1,6 @@
+.contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
